@@ -189,7 +189,7 @@ nav a:hover, nav [class*="fa-"]:hover{
     line-height: 1.5;
 }
 
-#projects-and-achievements ul{
+#projects-and-achievements ul, .about-me ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -200,7 +200,7 @@ nav a:hover, nav [class*="fa-"]:hover{
     font-size: 1rem;
 }
 
-#projects-and-achievements img{
+#projects-and-achievements img, .about-me img {
     margin: 2rem 0 4rem 0;
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
@@ -247,12 +247,12 @@ footer ul{
         gap: 1rem;
     }
 
-    #projects-and-achievements {
+    #projects-and-achievements, .about-me {
         max-width: 1200px;
         margin: 0 auto;
     }
 
-    #projects-and-achievements img{
+    #projects-and-achievements img, .about-me img{
         grid-column: 1/6;
         grid-row: 1/2;
     }
@@ -265,7 +265,7 @@ footer ul{
     }
 
 
-    #projects-and-achievements ul{
+    #projects-and-achievements ul, .about-me ul{
         justify-content: flex-end;
     }
 
