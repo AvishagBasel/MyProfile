@@ -29,7 +29,7 @@ function innerNav(){
         <span class="sr-only"> Github </span></a>
     </li>
     <li>
-       <a href="#" class="button">Resume</a>
+       <a href="documents/CV.pdf" class="button" target="_blank" >Resume</a>
     </li>
   </ul>`;
 }

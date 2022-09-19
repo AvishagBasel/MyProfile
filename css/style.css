@@ -161,20 +161,20 @@ nav a:hover, nav [class*="fa-"]:hover{
 
 /* projects and achievements section*/
 
-#projects-and-achievements{
+#projects-and-achievements, .about-me{
     padding: 4rem 1rem;
 }
 
-#projects-and-achievements h2{
+#projects-and-achievements h2, .about-me h2{
     font-size: 2.5rem;
     margin-bottom: calc(2.5rem * 1.5);
 }
 
-#projects-and-achievements h3{
+#projects-and-achievements h3, .about-me h3{
     color: var(--aqua);
 }
 
-#projects-and-achievements h4{
+#projects-and-achievements h4, .about-me h4{
     font-size: 1rem;
     font-family: var(--mono);
     margin: 0;
